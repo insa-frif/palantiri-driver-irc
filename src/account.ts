@@ -1,11 +1,10 @@
 import * as Promise from "bluebird";
-import {Proxy} from '../interfaces';
-import {Contact} from "../interfaces";
-import {Account as IAccount} from "../interfaces";
-import {Discussion} from "../interfaces";
-import {Message} from "../interfaces";
+import {Proxy, Discussion, Contact, Message} from "palantiri-interfaces";
 import {DiscussionIRC} from "./discussion";
 import {Client} from "./client/client";
+
+// TODO: sort this out...
+interface IAccount {}
 
 export interface AccountIRCData{
   server: string,

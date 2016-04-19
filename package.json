@@ -2,7 +2,7 @@
   "name": "palantiri-driver-irc",
   "version": "0.0.0",
   "description": "IRC driver for palantiri",
-  "main": "dist/node/node/main.js",
+  "main": "dist/node/main.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/insa-frif/palantiri-driver-irc.git"
@@ -18,8 +18,8 @@
   "devDependencies": {
     "chai": "^3.4.1",
     "gulp": "^3.9.0",
-    "typescript": "^1.8.0-dev.20160125",
-    "via-build-tools": "0.7.7"
+    "typescript": "^1.8.10",
+    "via-build-tools": "0.8.2"
   },
   "jspm": {
     "configFile": "systemjs.config.js",
@@ -33,6 +33,7 @@
     "duplexify": "^3.4.3",
     "lodash": "^4.0.0",
     "pump": "^1.0.1",
-    "pumpify": "^1.3.4"
+    "pumpify": "^1.3.4",
+    "palantiri-interfaces": "^0.1.0"
   }
 }

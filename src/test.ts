@@ -1,9 +1,9 @@
-export {OChat} from "../core/OChat";
-import {Account as IrcAccount} from "../core/driver-irc/account";
-import {oChatUser} from "../core/OChat";
-import {oChatApp} from "../core/OChat";
-import {Discussion} from "../core/interfaces";
-import {lineReader} from "../core/driver-irc/client/line-reader";
+export {OChat} from "core/OChat";
+import {Account as IrcAccount} from "account";
+import {oChatUser} from "core/OChat";
+import {oChatApp} from "core/OChat";
+import {Discussion} from "core/interfaces";
+import {lineReader} from "client/line-reader";
 
 let ircAccount = new IrcAccount({
   server: "localhost",

@@ -1,12 +1,15 @@
 {
-  "name": "omni-chat",
   "dependencies": {
-    "bluebird": "registry:npm/bluebird#3.3.4+20160406213700",
-    "lodash": "registry:npm/lodash#4.0.0+20160305082308"
+    "bluebird": "registry:npm/bluebird#3.3.4+20160411163813",
+    "lodash": "registry:npm/lodash#4.0.0+20160416211519",
+    "palantiri-interfaces": "npm:palantiri-interfaces"
   },
-  "ambientDependencies": {
-    "chai": "registry:dt/chai#3.4.0+20160216071402",
-    "mocha": "registry:dt/mocha#2.2.5+20151023103246",
-    "node": "registry:dt/node#4.0.0+20160311162451"
+  "ambientDependencies": {},
+  "devDependencies": {
+    "chai": "registry:npm/chai#3.5.0+20160415060238"
+  },
+  "ambientDevDependencies": {
+    "mocha": "registry:dt/mocha#2.2.5+20160317120654",
+    "node": "registry:dt/node#4.0.0+20160412142033"
   }
 }
