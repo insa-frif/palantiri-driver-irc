@@ -1,15 +1,14 @@
 {
-  "name": "ochat",
-  "version": "1.0.2",
-  "description": "Omni chat.",
+  "name": "palantiri-driver-irc",
+  "version": "0.0.0",
+  "description": "IRC driver for palantiri",
   "main": "dist/node/node/main.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/insa-frif/omni-chat.git"
+    "url": "git://github.com/insa-frif/palantiri-driver-irc.git"
   },
   "scripts": {
-    "test": "gulp test",
-    "postinstall": "gulp install.noNpm"
+    "test": "gulp test"
   },
   "keywords": [
     "chat"
