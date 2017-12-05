@@ -16,10 +16,10 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^3.4.1",
+    "chai": "^4.1.2",
     "gulp": "^3.9.0",
-    "typescript": "^1.8.10",
-    "via-build-tools": "0.8.2"
+    "typescript": "^2.6.2",
+    "via-build-tools": "0.11.0"
   },
   "jspm": {
     "configFile": "systemjs.config.js",
@@ -32,8 +32,8 @@
     "bluebird": "^3.2.1",
     "duplexify": "^3.4.3",
     "lodash": "^4.0.0",
-    "pump": "^1.0.1",
+    "pump": "^2.0.0",
     "pumpify": "^1.3.4",
-    "palantiri-interfaces": "^0.1.0"
+    "palantiri-interfaces": "^0.3.5"
   }
 }
